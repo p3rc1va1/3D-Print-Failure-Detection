@@ -1,0 +1,19 @@
+[project]
+name = "3d-print-failure-detection"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "p3rc1va1",email = "35celik.baha@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "3d_print_failure_detection", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['fail']
+
+roboflow:
+  workspace: additive-manufacturing-qa
+  project: 3dprinting
+  version: 6
+  license: Public Domain
+  url: https://universe.roboflow.com/additive-manufacturing-qa/3dprinting/dataset/6
